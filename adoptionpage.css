@@ -10,30 +10,77 @@ header {
 }
 
 #container {
-    background-color: #004175;
-    /* padding: 50px; */
+    /* background-color: #004175; */
     border: none;
     justify-content: flex-start;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: flex-start;
+    gap: 10px 10px;
+    padding: 50px;
 }
 
 .photo {
-    width: 300px;
+    width: 350px;
 }
 
 dt {
-    display: inline;
+    display: inline-block;
     background-color: #89DEEF;
-    justify-content: space-around;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     border-radius: 10px;
+    font-size: 14px;
 }
 
 .dogs {
-    width: 500px;
-    
+    width: 400px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#sock {
+    border: 10px;
+    border-style: solid;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+    /* background-color: #A6A9f0; */
+    gap: 10px 20px;
+    padding: 10px;
+}
+
+.peet {
+    /* border-width: 5px;
+    border-style: solid;
+    display: inline;
+    box-sizing: border-box;
+    display: flex;
+    object-fit: contain; */
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+}
+
+.toe1 {
+    background:
+        linear-gradient(rgba(166, 169, 240, 0.491), rgba(166, 169, 240, 0.491)), url("./starter_files/images/donate.jpg");
+    flex: 1 1 auto;
+}
+
+
+.toe2 {
+    background: url("./starter_files/images/volunteer.jpg");
+    flex: 1 1 auto;
+
+}
+
+.toe3 {
+    background: url("./starter_files/images/location.png");
+    flex: 1 1 auto;
 }
