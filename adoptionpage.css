@@ -9,7 +9,12 @@ header {
     border-bottom: 10px solid #89DEEF;
 }
 
-.dogs {}
+.dogs {
+    background-color: #004175;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+}
 
 
 dt {
@@ -19,4 +24,8 @@ dt {
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
+}
+
+img {
+    display: inline;
 }
