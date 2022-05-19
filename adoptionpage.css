@@ -9,16 +9,23 @@ header {
     border-bottom: 10px solid #89DEEF;
 }
 
-.dogs {
+#container {
     background-color: #004175;
-    justify-content: center;
-    padding: 10px;
+    /* padding: 50px; */
     border: none;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
+.photo {
+    width: 300px;
+}
 
 dt {
-    display: inline-block;
+    display: inline;
     background-color: #89DEEF;
     justify-content: space-around;
     padding: 10px;
@@ -26,6 +33,7 @@ dt {
     border-radius: 10px;
 }
 
-img {
-    display: inline;
+.dogs {
+    width: 500px;
+    
 }
