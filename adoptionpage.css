@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: "Open Sans", Oswald;
+}
+
 header {
     background-color: #004175;
     color: white;
@@ -12,11 +18,12 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 10px 10px;
 }
 
 .photo {
     width: 400px;
+    font-family: Oswald;
+    font-size: 24px;
 }
 
 dt {
@@ -26,7 +33,7 @@ dt {
     margin: 5px;
     border-radius: 10px;
     font-size: 14px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .dogs {
@@ -41,18 +48,17 @@ dt {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    align-content: stretch;
     gap: 0px 0px;
     padding: 0px;
     margin: 0;
 }
 
 .peet {
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     border-style: none;
     display: inline;
-    background-origin: border-box;
+    margin: 0px;
 }
 
 .toe1 {
@@ -82,9 +88,13 @@ dt {
 #pedi {
     font-size: 40px;
     color: white;
+    font-family: Oswald;
     line-height: 40px;
     text-align: center;
-    font-weight: bolder;
     justify-content: center;
     align-items: center;
+}
+
+.name {
+    font-family: Oswald;
 }
